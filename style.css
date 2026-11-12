@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eef0f4;
+  color: #333;
+  font-size: 14px;
+}
+
+/* ---- topo escuro ---- */
+.topo {
+  background: #22262b;
+  color: #fff;
+  text-align: center;
+  padding: 18px 10px 14px;
+}
+
+.topo h1 {
+  font-size: 20px;
+}
+
+.subtitulo {
+  font-size: 13px;
+  color: #c9ced6;
+  margin: 4px 0 10px;
+}
+
+.topo nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.topo nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.topo nav a:hover {
+  text-decoration: underline;
+}
+
+/* ---- cards ---- */
+main {
+  max-width: 840px;
+  margin: 25px auto;
+  padding: 0 15px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  padding: 22px;
+  margin-bottom: 22px;
+}
+
+.card h2 {
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  margin: 8px 0;
+}
+
+.destaque {
+  color: #1668dc;
+  font-weight: bold;
+}
+
+/* ---- caixas ---- */
+.caixa {
+  background: #e9e9e9;
+  border-radius: 6px;
+  padding: 12px 15px;
+  margin: 12px 0;
+  cursor: pointer;
+}
+
+.caixa h3 {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.caixa p {
+  font-size: 13px;
+  color: #555;
+}
+
+.borda-verde {
+  border: 3px solid green;
+}
+
+.borda-azul {
+  border: 3px solid blue;
+}
+
+/* ---- botões ---- */
+button {
+  background: #1668dc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 10px 8px 0 0;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* ---- lista ---- */
+.card ul {
+  margin: 8px 0 0 22px;
+}
+
+.card ul li {
+  margin: 6px 0;
+}
+
+/* ---- imagem ---- */
+.figura {
+  background: #e8f1fd;
+  border-radius: 8px;
+  padding: 12px;
+  width: 300px;
+  text-align: center;
+}
+
+.figura img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.figura figcaption {
+  font-size: 11px;
+  color: #555;
+  margin-top: 6px;
+}
+
+/* ---- formulário ---- */
+form label {
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 12px 0 4px;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+form textarea {
+  height: 90px;
+  resize: vertical;
+}
+
+/* ---- tabela ---- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+th {
+  background: #f1f1f1;
+}
+
+/* ---- rodapé escuro ---- */
+.rodape {
+  background: #22262b;
+  color: #fff;
+  text-align: center;
+  padding: 14px;
+  font-size: 13px;
+}

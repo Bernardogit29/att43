@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM - Document Object Model</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <h1 id="titulo-01">Fundação de Ensino de Contagem</h1>
+    <p class="subtitulo">Curso de Frontend</p>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Cursos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="card">
+      <h2>Manipulação do DOM</h2>
+      <p>Este é um parágrafo que será utilizado nos exercícios.</p>
+      <p class="destaque">Este é um texto com a classe destaque.</p>
+
+      <div class="caixa">
+        <h3>Caixa 1</h3>
+        <p>Conteúdo da primeira caixa.</p>
+      </div>
+
+      <div class="caixa">
+        <h3>Caixa 2</h3>
+        <p>Conteúdo da segunda caixa.</p>
+      </div>
+
+      <div class="caixa">
+        <h3>Caixa 3</h3>
+        <p>Conteúdo da terceira caixa.</p>
+      </div>
+
+      <button id="botao-principal">Botão principal</button>
+      <button id="botao-secundario">Botão secundário</button>
+    </section>
+
+    <section class="card">
+      <h2>Lista de tecnologias</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>Rust</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Imagem</h2>
+      <figure class="figura">
+        <img src="imagem.jpg" alt="Foto de um gato">
+        <figcaption>Foto de um gato</figcaption>
+      </figure>
+    </section>
+
+    <section class="card">
+      <h2>Formulário</h2>
+      <form>
+        <label for="campo-nome">Nome</label>
+        <input type="text" id="campo-nome" placeholder="Digite seu nome">
+
+        <label for="campo-email">E-mail</label>
+        <input type="email" id="campo-email" placeholder="Digite seu e-mail">
+
+        <label for="campo-curso">Curso</label>
+        <select id="campo-curso">
+          <option>Selecione</option>
+          <option>JavaScript</option>
+          <option>HTML e CSS</option>
+          <option>PHP</option>
+        </select>
+
+        <label for="campo-comentario">Comentário</label>
+        <textarea id="campo-comentario" placeholder="Digite seu comentário"></textarea>
+
+        <button id="botao-enviar" type="button">Enviar</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Tabela de alunos</h2>
+      <table>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Curso</th>
+        </tr>
+        <tr>
+          <td>Ana</td>
+          <td>20</td>
+          <td>JavaScript</td>
+        </tr>
+        <tr>
+          <td>João</td>
+          <td>22</td>
+          <td>HTML e CSS</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>19</td>
+          <td>JavaScript</td>
+        </tr>
+      </table>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>Curso de Frontend - Manipulação do DOM</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
